@@ -189,7 +189,7 @@ async function homePage(app) {
       </h1>
       <p class="hero-sponsored">Hosted by Prof. Ram Meghe Institute of Technology &amp; Research, Badnera</p>
       <div class="hero-meta">
-        <div class="hero-meta-item">${I.cal} September 8–10, 2026 (Hybrid Mode)</div>
+        <div class="hero-meta-item">${I.cal} Date - comming soon </div>
         <div class="hero-meta-item">${I.loc} PRMITR&amp;R, Amravati – INDIA</div>
       </div>
       <div class="hero-btns">
