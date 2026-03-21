@@ -1,0 +1,45 @@
+{
+  "organizing": [
+    { "role": "Chief Patron",       "name": "President VYWS",                                          "org": "" },
+    { "role": "Patron",             "name": "VYWS Management",                                         "org": "" },
+    { "role": "General Chair",      "name": "Dr. Gajendra R. Bamnote",                                 "org": "PRMITR Badnera" },
+    { "role": "General Co-Chair",   "name": "Dr. Chandrashekhar N. Deshmukh & Dr. Mahendra A. Pund",   "org": "PRMITR Badnera" },
+    { "role": "Organizing Secretary","name": "Prof. Arpit U. Chaudhari",                               "org": "PRMITR Badnera" },
+    { "role": "Finance Chair",      "name": "Dr. Anand A. Chaudhari",                                  "org": "PRMITR Badnera" }
+  ],
+  "chairs": [
+    { "role": "Technical Program Chair",       "name": "Dr. Maithili S. Deshmukh",     "org": "PRMITR Badnera" },
+    { "role": "Technical Program Chair",       "name": "Dr. Roshan R. Karwa",          "org": "PRMITR Badnera" },
+    { "role": "Publication Chair",             "name": "Dr. Samir Deshmukh",           "org": "PRMITR Badnera" },
+    { "role": "Publication Chair",             "name": "Prof. A. G. Mahalle",          "org": "PRMITR Badnera" },
+    { "role": "Advisory & Plenary Chair",      "name": "Dr. S. V. Pattalwar",          "org": "PRMITR Badnera" },
+    { "role": "Advisory & Plenary Chair",      "name": "Dr. C. R. Patil",             "org": "PRMITR Badnera" },
+    { "role": "Plagiarism & AI Check Chair",   "name": "Dr. Ms. Pranjali Deshmukh",   "org": "PRMITR Badnera" },
+    { "role": "Plagiarism & AI Check Chair",   "name": "Dr. Ms. Sumera M. Iqbal",     "org": "PRMITR Badnera" }
+  ],
+  "international": [
+    { "name": "Dr. Amruta Deshmukh",    "org": "Ciena Corporation, USA" },
+    { "name": "Mr. Saurabh Deshmukh",   "org": "Senior Data Architect, Cognizant, UK" },
+    { "name": "Vinothkumar Kolluru",    "org": "Senior Professional, USA" },
+    { "name": "Apoorv Sawale",          "org": "Sr ETL Developer, ARAG Legal Insurance, USA" },
+    { "name": "Mangesh Pimprikar",      "org": "Technical Manager/Architect, Cognizant, USA" },
+    { "name": "Vinay Purushe",          "org": "Consultant, TCS, USA" },
+    { "name": "Pooja Rajurkar",         "org": "Enterprisewide Manager, Siemens Healthineers, USA" },
+    { "name": "Hrishav Kumar",          "org": "SAP Operations Technical Lead, C&A, Germany" },
+    { "name": "Rohit Pande",            "org": "Senior Engineer, LTM, USA" }
+  ],
+  "national": [
+    { "name": "Dr. Roshan Bodile",          "org": "NIT Jalandhar" },
+    { "name": "Dr. Ms. M. S. Deshmukh",     "org": "Asst. Prof, PRMITR, Badnera" },
+    { "name": "Dr. R. R. Karwa",            "org": "Asst. Prof, PRMITR, Badnera" },
+    { "name": "Dr. Shital Raut",            "org": "Professor, VNIT, Nagpur" },
+    { "name": "Dr. A. S. Tiwari",           "org": "VNIT, Nagpur" },
+    { "name": "Dr. Rohit Singh",            "org": "NIT Jalandhar" },
+    { "name": "Dr. Kundan Kumar",           "org": "NIT Jalandhar" },
+    { "name": "Dr. Aijaz Mehdi Zaidi",      "org": "NIT Jalandhar" },
+    { "name": "Dr. Sachchidanand",          "org": "NIT Jalandhar" },
+    { "name": "Dr. V. Narasimha Nayak",     "org": "NIT Jalandhar" },
+    { "name": "Dr. Kappala Vinod Kiran",    "org": "NIT Jalandhar" },
+    { "name": "Dr. Somesula Manoj Kumar",   "org": "NIT Jalandhar" }
+  ]
+}

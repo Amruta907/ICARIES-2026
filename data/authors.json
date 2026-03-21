@@ -1,0 +1,30 @@
+{
+  "guidelines": [
+    "The paper should be original and should not have been published anywhere else or be under review for any journal or other conferences.",
+    "A paper should not have more than Five authors.",
+    "The author can submit a maximum of 03 papers. However, each paper needs to be registered separately.",
+    "Page limit is of maximum 06 pages. You may submit a paper of up to 8 pages with an additional cost of ₹500 per extra page.",
+    "Student registrants must upload proof of their Institute ID during the online registration.",
+    "ICARIES members must upload a valid ICARIES membership card during the online registration.",
+    "Tables, figures and images should have appropriate captions and be of good quality (dpi = 400). Each of these items must be cited inline in the main text of the manuscript.",
+    "The full article must be submitted as a MS Word file in DOC or DOCX format with proper title.",
+    "Before submitting your paper, please ensure that the English used is clear, concise and coherent. This is especially important if English is not your first language.",
+    "All submissions with less than 15% similarity will only be eligible for review, with the quality and scope of the work being taken into consideration.",
+    "Once the full paper is accepted, the author(s) will be requested to submit the copyright transfer form.",
+    "Any paper that does not follow the guidelines may not be considered for publication in the conference proceedings.",
+    "All the accepted papers must be revised with due comments and suggestions given by reviewers before the deadlines.",
+    "The Publisher maintains the right to exclude any papers from the work if they are deemed unsuitable for publication."
+  ],
+  "notes": [
+    { "text": "At least one author has to register for the paper to be included in the proceedings.", "highlight": false },
+    { "text": "Only registered authors will be allowed to present and receive certificates.", "highlight": false },
+    { "text": "Keep a copy of your transaction ID and bank receipt to track your registration.", "highlight": false },
+    { "text": "The committee is not responsible for financial losses caused by improper transactions.", "highlight": true }
+  ],
+  "submitPoints": [
+    "Submit papers in DOC/DOCX format",
+    "Maximum 6 pages (extra pages with additional charges)",
+    "Ensure plagiarism is below 15%",
+    "Follow all author guidelines before submission"
+  ]
+}
