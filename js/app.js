@@ -106,7 +106,15 @@ async function route() {
     disconnectScrollSpy();
     selectedSectionId = '';
     setActive('author-guidelines');
-  } else {
+  } else if (h === 'payment') {
+  homeRendered = false;
+  await paymentPage(app);
+  document.documentElement.scrollTop = 0;
+  disconnectScrollSpy();
+  selectedSectionId = '';
+  setActive('payment');
+} 
+  else {
     // Home page — only re-render if not already showing home
     if (!homeRendered) {
       await homePage(app);
@@ -194,7 +202,7 @@ async function homePage(app) {
       </div>
       <div class="hero-btns">
         <button class="btn btn-blue" onclick="goPage('author-guidelines')">${I.arr} Call for Papers</button>
-        <button class="btn btn-outline-blue" onclick="goPage('author-guidelines')">Submit Paper ${I.arr}</button>
+        <button class="btn btn-outline-blue" onclick="goPage('payment')">Submit Paper ${I.arr}</button>
       </div>
     </div>
   </section>
@@ -246,7 +254,7 @@ async function homePage(app) {
         <p class="sec-sub" style="margin:0 auto">Leading minds in Automation &amp; Intelligent Expert Systems</p>
       </div>
       <div class="speakers-grid">
-        ${[1,2,3,4].map(() => `
+        ${[1,2,3].map(() => `
           <div class="spk-card reveal">
             <div class="spk-photo">${I.user}</div>
             <div class="spk-info">
@@ -387,6 +395,48 @@ async function authorsPage(app) {
           <button class="btn btn-outline-blue">Download Template</button>
         </div>
       </div>
+    </div>
+  </div>`;
+}
+
+/* ══════════════════════════════════════════════════════
+   payment section
+══════════════════════════════════════════════════════ */
+/* ══════════════════════════════════════════════════════
+   PAYMENT PAGE
+══════════════════════════════════════════════════════ */
+async function paymentPage(app) {
+  app.innerHTML = `
+  <div class="subpage-hero">
+    <div class="subpage-hero-inner">
+      <span class="sec-eyebrow">ICARIES 2026</span>
+      <h1 class="sec-title">Payment Section</h1>
+      <div class="sec-bar"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-inner">
+
+      <h2>Registration Payment Details</h2>
+
+      <div class="members-grid" style="grid-template-columns:1fr 1fr">
+
+        <div class="member-card">
+          <div class="member-name">Bank Details</div>
+          <div class="member-org">Account Name: ICARIES 2026</div>
+          <div class="member-org">Account Number: XXXXXXXX</div>
+          <div class="member-org">IFSC Code: XXXXX</div>
+        </div>
+
+        <div class="member-card">
+          <div class="member-name">UPI Payment</div>
+          <div class="member-org">UPI ID: example@upi</div>
+          <div class="member-org">Scan QR Code (to be added)</div>
+        </div>
+
+      </div>
+
     </div>
   </div>`;
 }

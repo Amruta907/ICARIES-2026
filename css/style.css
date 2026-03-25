@@ -76,7 +76,7 @@ sup{font-size:.6em;vertical-align:super}
 .nav-links{display:flex;align-items:center;gap:0;list-style:none}
 .nav-links a{
   display:block;padding:.45rem .78rem;
-  font-size:.78rem;font-weight:700;letter-spacing:.8px;
+  font-size:1.06rem;font-weight:700;letter-spacing:.8px;
   color:var(--blue);cursor:pointer;
   border-radius:6px;transition:color .2s,background .2s;
   white-space:nowrap;
@@ -231,11 +231,11 @@ sup{font-size:.6em;vertical-align:super}
 }
 .date-card:hover::before{opacity:1}
 .date-card:hover{border-color:var(--blue);box-shadow:var(--shadow-md);transform:translateY(-3px)}
-.date-label{font-weight:700;font-size:.88rem;color:var(--text);margin-bottom:.45rem}
+.date-label{font-weight:700;font-size:1.1rem;color:var(--text);margin-bottom:.45rem}
 .date-val{font-size:.76rem;color:var(--blue);font-weight:700;letter-spacing:.3px}
 
 /* ── SPEAKERS ────────────────────────────────────────── */
-.speakers-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin-top:2.5rem}
+.speakers-grid{display:grid;grid-template-columns:repeat(3,minmax(200px,250px));justify-content: center;gap:2.2rem;margin-top:2.5rem}
 .spk-card{
   background:#fff;border:1.5px solid var(--border);
   border-radius:12px;overflow:hidden;
@@ -389,7 +389,7 @@ footer{background:var(--text);padding:3rem 1.5rem 1.8rem}
 .notes-list li::before{content:'—';color:var(--blue);flex-shrink:0;font-weight:700}
 .notes-list li.hl{color:var(--text);font-weight:700}
 .notes-list li.hl::before{color:#c0392b}
-.dtable-title{font-size:.92rem;font-weight:700;color:var(--text);border-left:3px solid var(--blue);padding-left:.9rem;margin-bottom:1.1rem}
+.dtable-title{font-size:1.0rem;font-weight:700;color:var(--text);border-left:3px solid var(--blue);padding-left:.9rem;margin-bottom:1.1rem}
 .dtable{width:100%;border-collapse:collapse}
 .dtable td{padding:.85rem 1rem;font-size:.85rem;border-bottom:1px solid var(--border)}
 .dtable td:first-child{color:var(--text-mid)}
